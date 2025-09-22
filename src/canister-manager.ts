@@ -3,7 +3,7 @@ import { ICManagementCanister } from '@dfinity/ic-management';
 import { Principal } from '@dfinity/principal';
 
 // Configuration
-const LOCAL_HOST = 'http://127.0.0.1:4943'; // Local DFX replica
+const LOCAL_HOST = 'http://127.0.0.1:8080'; // Local DFX replica
 const MAINNET_HOST = 'https://ic0.app'; // For mainnet
 const IDENTITY_PROVIDER = 'https://identity.ic0.app';
 
