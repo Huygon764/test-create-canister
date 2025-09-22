@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "canisters": {
+    "demo": {
+      "type": "custom",
+      "build": "echo 'Building demo canister'",
+      "wasm": "./wasm/demo.wasm",
+      "candid": "./demo.did"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8080",
+      "type": "ephemeral"
+    }
+  }
+}
